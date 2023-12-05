@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-align: center;
   margin-top: 3vh;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 button{
@@ -12,7 +12,6 @@ button{
   padding: 3px;
   background-color: white;
   color: blue;
-  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -26,10 +25,19 @@ input{
   width: 170px;
   background-color: white;
   border-radius: 10px;
-  color: blue;
+  /* color: blue; */
   font-weight: 700;
 }
 
-h1,h2{
-  color: blue;
+.inputbox{
+  padding: 20px;
+  width: 20vw;
+  font-size: 1.1rem;
 }
+
+.createBtn{
+  padding: 8px;
+  border-radius: 5px;
+}
+
+

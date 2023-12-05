@@ -56,32 +56,14 @@ render(){
     </div> */}
 
     <div>
-      <h1>To-Do List</h1>
+      <h1>Your Tasks Your Job!!.</h1>
     </div>
 
-    <Input inputValue={this.state.value} handleSubmit={this.handleSubmit} handleChange={this.handleChange}/>
+    <Input className="inputbox" inputValue={this.state.value} handleSubmit={this.handleSubmit} handleChange={this.handleChange}/>
 
     <div id='text'>
       <h2>{this.state.value}</h2>
     </div>
-
-    {/* <div id='list'>
-
-    {
-
-      this.state.data.map((el,index)=>{
-
-        return <div key={index}>
-          <h1>{el}</h1>
-          <button onClick={()=>this.handleDelete(index)}>Delete</button>
-          <button onClick={()=>this.handleUpdate(index)}>Update</button>
-        </div>
-    
-      })
-
-    }
-
-    </div> */}
 
     <List data={this.state.data} handleDelete={this.handleDelete} handleUpdate={this.handleUpdate} />
     
